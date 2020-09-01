@@ -1,0 +1,11 @@
+* Converte o arquivo typescript em javascript
+yarn tsc src/index.ts
+
+* Criação das configura~coes do typescript
+yarn tsc --init
+
+* Depois de configurado
+yarn tsc
+
+*** tsconfig.json
+"outDir": "./dist"
